@@ -1,3 +1,27 @@
+-- Copies a list of every item in the game, along with their display names.
+-- There is a comment at the bottom containing all of the items
+-- There are of course some unobtainable items in this.
+--[[ Unobainables [TO MY KNOWLEDGE]:
+"AlrGun" - Deals 1 damage to enemies
+"GhostKnife" - Knife the hidden shadow uses
+"GhostBomb" - Bombs the hidden uses in Survival of the Fittest
+"BInjector" - Powers up your fists, gives regeneration
+"KitKnife" - Tier 4 kitchen knife [not sure if this is actually unobtainable]
+"JBox" - Exotic SoF weapon - turns you into a slow, mini-gun wielding brute
+"CRBSpear" - Explosive throwing spear
+"LSMini" - Mini-gun the Juggernaut uses
+"CMMaul" - Weapon from the Siege gamemode from SoF
+"PSpray", "Taser", "PScanner" - Removed items from SoF
+"RDio" - Does nothing??? Been in the game since UMG
+"SClaw" - Weapon the shadows use, also from the PvE gamemode of SoF
+"MusketR" - "Commisioned musket", joke variation of the decomissioned musket?
+"GMSword" - Bright blue sword of the angel "Gabriel"
+"EMSword" - Weapon from the Siege gamemode of SoF
+"PLBlade" - Exotic SoF weapon [CAN TEAMKILL]
+"Flare", "EFlare" - Sends a signal into the sky, does nothing now.
+"SPCStim" - Has most of the buffs from the other stims
+]]
+
 local s = ""
 
 for i,v in pairs(require(workspace.ServerStuff.Statistics.W_STATISTICS)) do
@@ -182,5 +206,4 @@ SStim = 'BL1 (Neloprephine)',
 TStim = 'Used Stim', 
 AdrStim = 'Hemostatic Zanustin', 
 CRSplint = 'Crafted Splint', 
-
 ]]
