@@ -1,0 +1,1 @@
+local Key = getrenv()._G.pseed[getrenv()._G.list[workspace.ServerStuff.ask:InvokeServer("main", true)]]

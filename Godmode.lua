@@ -1,0 +1,1 @@
+workspace.ServerStuff.dealDamage:FireServer({"meleedamage",game.Players.LocalPlayer.Character,tonumber("NaN"),false,"PLBlade",false,false,{},game.Players.LocalPlayer.Character.Head}, nil, getrenv()._G.pseed[getrenv()._G.list[workspace.ServerStuff.ask:InvokeServer("main", true)]])
