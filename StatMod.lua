@@ -10,15 +10,14 @@ local StatsToChange = {
     basereloadmod = 10000, -- High number = fast reload
     baseshovespeed = 10000, -- High number = fast shove
     basetrapspeed = 10000, -- High number = faster trap laying
-    sprint_stam = 10000, --High number = no lung cancer
+    sprint_stam = 2000000, --High number = no exhaustion
 
-    bleed_immunity = true,
-    no_morale = true,
-	burn_immunity = true,
-	cripple_immunity = true,
-	fist_speed_boost = true,
-	frac_immunity = true,
-	can_be_grappled = false,
+    bleed_immunity = true, -- True = No Bleeding
+    no_morale = true, -- True = No morale when others die
+    burn_immunity = true, -- True = Being on fire does not hurt
+    cripple_immunity = true, -- True = no broken legs
+    frac_immunity = true, -- True = no fractures
+    can_be_grappled = false, -- Not sure what this does
 }
 
 for i,v in pairs(StatsToChange) do
